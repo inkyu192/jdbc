@@ -23,7 +23,7 @@ public class UncheckedAppTest {
         try {
             controller.request();
         } catch (Exception e) {
-            //e.printStackTrace();
+//            e.printStackTrace();
             log.info("ex", e);
         }
     }
